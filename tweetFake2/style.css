@@ -1,0 +1,89 @@
+html{
+    font-family: sans-serif;
+    background-color: #ccc;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header textarea{
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+header #publicar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ACEE;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet{
+    margin: 20px 0 ;
+}
+
+.tweet .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tweet .header div{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.tweet h2{
+    font-weight: bold;
+}
+.tweet h3{
+    font-size: 14px;
+
+    color: #888;
+}
+.tweet p{
+    font-size: 14px;
+}
+.cancelar{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+.botao{
+    cursor: pointer;
+}
+
+.cancelar{
+    margin-left: 80%;
+}
